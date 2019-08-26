@@ -1,0 +1,21 @@
+{
+  "name": "react-native-pin-input-component",
+  "version": "1.0.0",
+  "description": "React native pin input component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pincode",
+    "pin",
+    "pin-code",
+    "pin-input",
+    "otp",
+    "otp-input",
+    "pin-view",
+    "reac-native-pincode"
+  ],
+  "author": "nampt <nampt.mpay@gmail.com>",
+  "license": "MIT"
+}
