@@ -1,2 +1,3 @@
-import PinInput from './src'
+import PinInput from './src';
+
 module.exports = PinInput;
