@@ -1,13 +1,11 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, View, Text} from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 import PinInput from 'react-native-pin-input-component';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: Colors.lighter,
+    backgroundColor: 'white',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -26,6 +24,7 @@ class Default extends React.Component {
         <View style={styles.container}>
           <Text>Default Style: </Text>
           <PinInput
+            autoFocus
             value={value}
             onPress={() => {}}
             onChangeText={text => {

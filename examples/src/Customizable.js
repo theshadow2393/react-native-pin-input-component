@@ -87,7 +87,7 @@ class Customizable extends React.Component {
             cellBlurStyle={styles.blur}
           />
         </View>
-        <View style={{backgroundColor: 'rgb(27,43,52)', padding: 10}}>
+        <View style={{backgroundColor: 'rgb(27,43,52)', padding: 10, marginTop: 20}}>
           <Text style={{color: 'white'}}>cellNormalStyle: </Text>
           {this.renderStyle(styles.normal)}
         </View>

@@ -1,13 +1,11 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, View, Text} from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 import PinInput from 'react-native-pin-input-component';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: Colors.lighter,
+    backgroundColor: 'white',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -24,7 +22,9 @@ class VisibleSelection extends React.Component {
     return (
       <SafeAreaView>
         <View style={styles.container}>
-          <Text>Default Style: </Text>
+          <View style={{margin: 20}}>
+            <Text>Default Style: </Text>
+          </View>
           <PinInput
             value={value}
             onPress={() => {}}

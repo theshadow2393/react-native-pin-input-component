@@ -5,8 +5,8 @@ import Cell from './Cell';
 
 const defaultStypes = StyleSheet.create({
   normal: {
-    width: 30,
-    height: 30,
+    width: 40,
+    height: 40,
     borderWidth: 0.5,
     borderColor: '#D5D5D5',
     justifyContent: 'center',
@@ -14,8 +14,8 @@ const defaultStypes = StyleSheet.create({
     margin: 2,
   },
   focus: {
-    width: 30,
-    height: 30,
+    width: 40,
+    height: 40,
     borderWidth: 0.5,
     borderColor: '#D5D5D5',
     justifyContent: 'center',
@@ -34,8 +34,8 @@ const defaultStypes = StyleSheet.create({
     }),
   },
   blur: {
-    width: 30,
-    height: 30,
+    width: 40,
+    height: 40,
     justifyContent: 'center',
     alignItems: 'center',
     margin: 2,

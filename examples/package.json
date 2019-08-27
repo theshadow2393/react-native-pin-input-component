@@ -8,13 +8,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-gesture-handler": "^1.4.1",
-    "react-native-pin-input-component": "^1.0.0",
+    "react-native-pin-input-component": "^1.0.1",
     "react-native-reanimated": "^1.2.0",
-    "react-navigation": "^3.12.1",
-    "prop-types": "15.7.2",
+    "react-navigation": "^3.12.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
