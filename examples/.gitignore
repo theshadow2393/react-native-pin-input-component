@@ -58,3 +58,7 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 node_modules
+.prettierrc.js
+package-lock.json
+.buckconfig
+.flowconfig
