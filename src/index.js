@@ -72,6 +72,7 @@ class PinInput extends React.Component {
         if (i < l)
           cells.push(
             <Cell
+              key={[i]}
               value={values[i]}
               entered
               cellNormalStyle={cellNormalStyle}
@@ -85,6 +86,7 @@ class PinInput extends React.Component {
           if (onFocus) {
             cells.push(
               <Cell
+                key={[i]}
                 cellNormalStyle={cellNormalStyle}
                 cellFocusStyle={cellFocusStyle}
                 cellBlurStyle={cellBlurStyle}
@@ -97,6 +99,7 @@ class PinInput extends React.Component {
           } else {
             cells.push(
               <Cell
+                key={[i]}
                 cellNormalStyle={cellNormalStyle}
                 cellFocusStyle={cellFocusStyle}
                 cellBlurStyle={cellBlurStyle}
@@ -109,6 +112,7 @@ class PinInput extends React.Component {
         } else
           cells.push(
             <Cell
+              key={[i]}
               cellNormalStyle={cellNormalStyle}
               cellFocusStyle={cellFocusStyle}
               cellBlurStyle={cellBlurStyle}
